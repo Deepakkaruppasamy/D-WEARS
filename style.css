@@ -1,0 +1,170 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;  
+    height: 80px;
+    width: 100%;
+    z-index: 1000; 
+}
+.navbar{
+    float: right;
+    padding:5px;
+}
+.nav-item{
+    list-style-type: none;
+    display: inline;
+}
+a {
+    margin: 25px;
+    text-decoration:none ;
+    font-weight: bolder;
+    color:#fff;
+    padding-bottom: 10px;
+}
+a:hover{
+    color:red;
+    border-bottom: 2px solid white;
+}
+.logo{ 
+    border-radius: 30px;
+    height: 80px;
+    width:100px;
+    cursor: pointer;
+    opacity: 1;
+}
+.content{
+    padding-top: 5px;
+}
+.img1{
+    margin-top:77px;
+    width:1295px;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+}
+.image-button {
+    position: absolute;
+    bottom: 10px; 
+    left: 15%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 16px;
+}
+.image-button:hover{
+    background-color:gray;
+    border: solid white;
+    color:white;
+}
+.products{
+    display: flex;
+    padding-left:100px;
+}
+.p1{
+    margin:20px;
+}
+.img2{
+    width:225px;
+    height: 225px;
+    cursor: pointer;
+}
+.img2:hover{
+    transform: scale(1.1); 
+}
+.img3{
+    width:1295px;
+}
+.image-container3 {
+    position: relative;
+    text-align: center;
+}
+.image-button3 {
+    position: absolute;
+    bottom: 10px; 
+    left: 15%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 16px;
+}
+.image-button3:hover{
+    background-color: palevioletred;
+    border: solid white;
+    color:white;
+    text-decoration: solid red;
+
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: auto ;
+    height: 300px;
+}
+.logo1{
+    height: 200px;
+}
+.foot{
+    display: flex;
+}
+.social{
+    list-style-type: none;
+}
+.social li{
+    display: inline;
+    margin:4px;
+    cursor: pointer;
+}
+.brand,.about,.contact,.signup{
+    margin:25px;
+} 
+.contact{
+    margin-left:60px;
+}
+i{
+    cursor: pointer;
+}
+.notify{
+    list-style-type: none;
+}
+.submit{
+    background-color:rgb(81, 77, 77);
+    height: 25px;
+    cursor: pointer;
+    border-color: black;
+}
+.end{
+    background-color: rgb(72, 69, 69);
+    text-align: center;
+    font-weight: bolder;
+    padding:1%;
+}
+.info{
+    text-align: center;
+}
+.info a{
+    color:rgb(3, 93, 3);
+    font-weight: bolder;
+
+}
+.info a:hover{
+   font-size: larger;
+}  
+  
+  
+  
+  
+  
